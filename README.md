@@ -22,6 +22,7 @@ import { NepaliCalendarModule } from "your-local-folder-path/calendar/nepali-cal
 });
 
 ------------html/CSHTML-----------------
+
 <np-calendar ngDefaultControl [(ngModel)]="npDate" 
 (ngModelChange)="ConvertNepToEng()">
 
@@ -41,10 +42,10 @@ export class AppComponent {
   
 
 
-# Dependencies:
+## Dependencies:
 moment.js
 
-# Coming soon:
+## Coming soon:
 * Better UI look and feel
 * installable as npm-package
 * feature enhancements
@@ -52,7 +53,7 @@ moment.js
 
 please send me email to 'sudarshan.reg@gmail.com' with your github id  if you face any issues. 
 
-## Contributors are welcomed
+## Contributors are welcome
 This module is only improved and maintained by contributors like you;
 
 As a contributor You can contribute to the following;
