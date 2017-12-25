@@ -18,14 +18,15 @@ Converts from AD to BS and BS to AD
 import { NepaliCalendarModule } from "your-local-folder-path/calendar/nepali-calendar.module";
 
 @NgModule({
- imports: [NepaliCalendarModule],
+ imports: [NepaliCalendarModule]
 });
+
 ------------html/CSHTML-----------------
 <np-calendar ngDefaultControl [(ngModel)]="npDate" 
 (ngModelChange)="ConvertNepToEng()">
 
----app.component  (or your required component)---
 
+---app.component  (or your required component)---
 
 export class AppComponent {
 
