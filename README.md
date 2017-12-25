@@ -37,7 +37,7 @@ export class AppComponent {
         this.engDate = this.npCalService.ConvertNepToEngDate(this.npDate);
     }
   } 
-----------------------------------------------------------
+  
 
 
 # Dependencies:
@@ -49,7 +49,7 @@ moment.js
 * feature enhancements
 * documentation
 
-please send me email to #`sudarshan.reg AT gmail.com`# with your github id  if you face any issues. 
+please send me email to 'sudarshan.reg@gmail.com' with your github id  if you face any issues. 
 
 ## Contributors are welcomed
 This module is only improved and maintained by contributors like you;
