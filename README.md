@@ -2,12 +2,12 @@
 A reusable nepali calendar component date converter for angular2 and angular4 applications.
 Converts from AD to BS and BS to AD
 
-Features:
+# Features:
 1. English to Nepali date conversion and vice-versa
 2. Display a Nepali Calendar (basic) which can be directly binded as a [(ngModel)]
 3. Loads today's date by default
 
-Implementation steps:
+# Implementation steps:
 1. Clone or download this into your local
 2. copy paste the folder : app/calendar inside your destined location
 3. add following in your code:
@@ -23,10 +23,9 @@ import { NepaliCalendarModule } from "your-local-folder-path/calendar/nepali-cal
 (ngModelChange)="ConvertNepToEng()">
 
 -----------app.component  (or your required component)------------------------------------
+
 export class AppComponent {
-
     private npDate: any;
-
     private engDate: any;
     constructor(private npCalService: NepaliCalendarService) {
     }
@@ -37,14 +36,28 @@ export class AppComponent {
 ----------------------------------------------------------
 
 
+# Dependencies:
+moment.js
 
-
-Coming soon:
+# Coming soon:
 * Better UI look and feel
 * installable as npm-package
 * feature enhancements
 * documentation
 
-Dependencies:
-moment.js
+## please send me email to `sudarshan.reg AT gmail.com` with your github id  if you face any issues. 
+
+## Contributors are welcomed
+This module is only improved and maintained by contributors like you;
+
+As a contributor, it's NOT required to be skilled in Javascript nor Angular2. 
+You can contribute to the following;
+
+  * Updating README.md
+  * Making more and clearer comments
+  * Answering issues and building FAQ
+  * Documentation
+  * Translation
+  
+  
 
