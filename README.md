@@ -12,7 +12,9 @@ Converts from AD to BS and BS to AD
 2. copy paste the folder : app/calendar inside your destined location
 3. add following in your code:
 
+
 ------------app.module:------------------------------------------
+
 import { NepaliCalendarModule } from "your-local-folder-path/calendar/nepali-calendar.module";
 
 @NgModule({
@@ -45,7 +47,7 @@ moment.js
 * feature enhancements
 * documentation
 
-## please send me email to `sudarshan.reg AT gmail.com` with your github id  if you face any issues. 
+# please send me email to `sudarshan.reg AT gmail.com` with your github id  if you face any issues. 
 
 ## Contributors are welcomed
 This module is only improved and maintained by contributors like you;
