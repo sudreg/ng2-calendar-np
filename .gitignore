@@ -6,4 +6,5 @@
 
 # Node.js Tools for Visual Studio
 node_modules/
-
+/compiled-js
+/.vscode

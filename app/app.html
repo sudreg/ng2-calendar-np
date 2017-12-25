@@ -1,0 +1,16 @@
+ Select Date:
+<np-calendar ngDefaultControl [(ngModel)]="npDate" 
+(ngModelChange)="ConvertNepToEng()">
+
+</np-calendar>
+
+<br>
+
+<span>
+    Nepali Date: {{npDate.Year}}-{{npDate.Month}}-{{npDate.Day}}
+</span>
+<br/>
+<span>
+    English Date:
+    <b>{{engDate}}</b>
+</span>
